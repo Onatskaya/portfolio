@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'WoodcutterTagsonaRope';
-    src: url('../fonts/WoodcutterTagsonaRope.eot');
-    src: url('../fonts/WoodcutterTagsonaRope.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/WoodcutterTagsonaRope.woff') format('woff'),
-         url('../fonts/WoodcutterTagsonaRope.ttf') format('truetype'),
-         url('../fonts/WoodcutterTagsonaRope.svg#WoodcutterTagsonaRope') format('svg');
+    font-family: 'Creta';
+    src: url('../fonts/Creta.eot');
+    src: url('../fonts/Creta.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Creta.woff') format('woff'),
+         url('../fonts/Creta.ttf') format('truetype'),
+         url('../fonts/Creta.svg#Creta') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 
-$main-heading-font: 'WoodcutterTagsonaRope', sans-serif;
-$main-heading-font-size: 5.125em;
+$main-heading-font: 'Creta', sans-serif;
+$main-heading-font-size: 3em;
 $main-heading-color: #841388;
 $center-alignment: center;
 
@@ -91,7 +91,7 @@ h1 {
 	color: $main-heading-color;
 	font-size: $main-heading-font-size * 1.2;
 	text-align: $center-alignment;
-	margin: -13px 0 0;
+	margin: .1em 0 0;
 }
 /* --------------Main---------------- */
 .projects {
@@ -104,7 +104,7 @@ h2 {
 	text-align: $center-alignment;
 	margin: 0;
 	position: relative;
-	top: -.13em;
+	top: .5em;
 }
 .project {
 	width: 33%;
